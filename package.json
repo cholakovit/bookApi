@@ -14,6 +14,8 @@
     "fastify": "^5.0.0",
     "fastify-plugin": "^5.0.1",
     "pg": "^8.13.0",
+    "pino-multi-stream": "^6.0.0",
+    "pino-pretty": "^11.2.2",
     "reflect-metadata": "^0.2.2",
     "tsyringe": "^4.8.0",
     "typeorm": "^0.3.20",
@@ -21,6 +23,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.7.5",
+    "@types/pino-multi-stream": "^5.1.6",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2"
   }

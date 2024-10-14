@@ -1,20 +1,30 @@
 import { DataSource } from "typeorm";
-import { Book } from './books/Book'
+import { Book } from "./books/Book";
+
+
+
 
 export const AppDataSource = new DataSource({
-    type: 'postgres',
-    url: process.env.DATABASE_URL,
+    type: "postgres",
+    url: process.env.DB_URL,
     synchronize: true,
     logging: false,
-    entities: [Book],  // Include both entities here
+    entities: [Book],
     migrations: [],
     subscribers: [],
-  });
-  
-  AppDataSource.initialize()
-    .then(() => {
-      console.log("Data Source has been initialized!");
-    })
-    .catch((err) => {
-      console.error("Error during Data Source initialization:", err);
-    });
+});
+
+AppDataSource.initialize()
+  .then(() => console.log("Connection to DB established"))
+  .catch(err => console.error("Unable to connect to the database: ", err));
+
+
+
+
+
+
+
+
+
+
+

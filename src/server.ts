@@ -1,6 +1,6 @@
 import app from './app'
 
-app.listen({ port: 8080 }, (err, address) => {
+app.listen({ port: Number(process.env.PORT) }, (err, address) => {
     if(err) {
         app.log.error(err)
         process.exit(1)
