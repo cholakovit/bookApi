@@ -3,7 +3,7 @@ import "reflect-metadata";
 import dotenv from 'dotenv';
 dotenv.config();
     
-import Fastify, { FastifyError, FastifyReply, FastifyRequest } from 'fastify'
+import Fastify from 'fastify'
 import './di-container'
 import { bookRoutes } from "./router";
 import { createErrorHandler, getLogStreams } from "./utils/settings";

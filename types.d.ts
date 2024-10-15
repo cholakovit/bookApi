@@ -6,4 +6,8 @@ type CreateBookBody = {
   tags: string[];
 };
   
-  
+type FieldConfig = {
+  field: string
+  minLength?: number
+  isEmail?: boolean
+}

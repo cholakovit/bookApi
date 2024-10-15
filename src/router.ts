@@ -1,7 +1,10 @@
 import { FastifyInstance } from "fastify"
-import { createBook, getBooks } from "./books/controller"
+import { BookController } from "./books/Controller";
+
+
+const bookController = new BookController();
 
 export const bookRoutes = (app: FastifyInstance) => {
-    app.post('/books', createBook);
-    app.get('/books', getBooks)
-}
+    app.post('/books', bookController.createBook.bind(bookController));
+    app.get('/books', bookController.getBooks.bind(bookController));
+};
