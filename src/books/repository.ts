@@ -12,3 +12,8 @@ export const createBookRepository = async(title: string, author: string) => {
   return await bookRepository.save(book)
 }
 
+export const getBooksRepository = async() => {
+  const bookRepository = getBookRepository()
+  return await bookRepository.find()
+}
+

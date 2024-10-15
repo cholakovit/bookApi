@@ -3,7 +3,7 @@ import "reflect-metadata";
 import dotenv from 'dotenv';
 dotenv.config();
     
-import Fastify from 'fastify'
+import Fastify, { FastifyError, FastifyReply, FastifyRequest } from 'fastify'
 import './di-container'
 import { bookRoutes } from "./router";
 import { getLogStreams } from "./utils/settings";
@@ -21,6 +21,15 @@ const app = Fastify({
 })
 
 bookRoutes(app);
+
+app.setErrorHandler((error: FastifyError, request: FastifyRequest, reply: FastifyReply) => {
+  request.log.error(error);
+  
+  const statusCode = error.statusCode ?? 500
+  const errorMessage = isProduction ? 'Internal server error' : error.message
+
+  reply.code(statusCode).send({ error: errorMessage })
+})
 
 export default app;
     
