@@ -6,7 +6,7 @@ dotenv.config();
 import Fastify, { FastifyError, FastifyReply, FastifyRequest } from 'fastify'
 import './di-container'
 import { bookRoutes } from "./router";
-import { getLogStreams } from "./utils/settings";
+import { createErrorHandler, getLogStreams } from "./utils/settings";
 import { multistream } from "pino-multi-stream";
 
 const isProduction = process.env.NODE_ENV === 'production';
@@ -22,14 +22,7 @@ const app = Fastify({
 
 bookRoutes(app);
 
-app.setErrorHandler((error: FastifyError, request: FastifyRequest, reply: FastifyReply) => {
-  request.log.error(error);
-  
-  const statusCode = error.statusCode ?? 500
-  const errorMessage = isProduction ? 'Internal server error' : error.message
-
-  reply.code(statusCode).send({ error: errorMessage })
-})
+app.setErrorHandler(createErrorHandler(isProduction));
 
 export default app;
     

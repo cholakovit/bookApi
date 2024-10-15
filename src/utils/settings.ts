@@ -1,3 +1,4 @@
+import { FastifyError, FastifyReply, FastifyRequest } from 'fastify';
 import fs from 'fs';
 import path from 'path';
 import pinoPretty from 'pino-pretty';
@@ -21,3 +22,14 @@ export const getLogStreams = (isProduction: boolean) => {
         fileStream, // Also log to the file
       ];
 };
+
+export const createErrorHandler = (isProduction: boolean) => {
+  return (error: FastifyError, request: FastifyRequest, reply: FastifyReply) => {
+    request.log.error(error);
+
+    const statusCode  = error.statusCode ?? 500;
+    const errorMessage = isProduction ? 'Internal server error' : error.message;
+
+    reply.code(statusCode).send({ error: errorMessage });
+  }
+}
