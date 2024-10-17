@@ -1,5 +1,5 @@
 
-type CreateBookBody = {
+type CreateBookRequest = {
   title: string;
   author: string;
   categories: string[];

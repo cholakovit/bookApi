@@ -6,12 +6,10 @@ import { validateFields } from "../utils/decorators";
 const bookService = container.resolve(BookService)
 
 export class BookController {
-    @validateFields([
-      { field: 'title', minLength: 3 },
-      { field: 'author', minLength: 3 },
-    ])
+
+    @validateFields([{ field: 'title', minLength: 3 }, { field: 'author', minLength: 3 }])
     public async createBook(
-      request: FastifyRequest<{ Body: CreateBookBody }>,
+      request: FastifyRequest<{ Body: CreateBookRequest }>,
       reply: FastifyReply
     ) {
       const { title, author, categories, tags } = request.body;
@@ -22,6 +20,35 @@ export class BookController {
     public async getBooks(request: FastifyRequest, reply: FastifyReply) {
       const books = await bookService.getBooks();
       reply.send(books);
+    }
+
+    public async getBookById(request: FastifyRequest<{ Params: { id: string } }>, reply: FastifyReply) {
+      const book = await bookService.getBookById(Number(request.params.id))
+      if(book) {
+        reply.send(book)
+      }else {
+        reply.status(404).send({ error: 'Book not found' })
+      }
+    }
+
+    @validateFields([{ field: 'title', minLength: 3 }, { field: 'author', minLength: 3 }])
+    public async updateBook(request: FastifyRequest<{ Params: { id: string }; Body: CreateBookRequest }>, reply: FastifyReply) {
+      const { title, author, categories, tags } = request.body
+      const updateBook = await bookService.updateBook(Number(request.params.id), { title, author, categories, tags })
+      if(updateBook) {
+        reply.send(updateBook)
+      } else {
+        reply.status(404).send({ error: 'Book not found' })
+      }
+    }
+
+    public async deleteBook(request: FastifyRequest<{ Params: { id: string } }>, reply: FastifyReply) {
+      const deleted = await bookService.deleteBook(Number(request.params.id))
+      if(deleted) {
+        reply.send({ message: 'Book deleted' })
+      } else {
+        reply.status(404).send({ error: 'Book not found' })
+      }
     }
   }
 
