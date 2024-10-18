@@ -5,7 +5,7 @@ dotenv.config();
     
 import Fastify from 'fastify'
 import './di-container'
-import { bookRoutes } from "./router";
+import { Routes } from "./router";
 import { createErrorHandler, getLogStreams } from "./utils/settings";
 import { multistream } from "pino-multi-stream";
 
@@ -20,7 +20,7 @@ const app = Fastify({
       },
 })
 
-bookRoutes(app);
+Routes(app);
 
 app.setErrorHandler(createErrorHandler(isProduction));
 

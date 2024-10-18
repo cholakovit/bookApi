@@ -12,7 +12,7 @@ export class BookController {
       request: FastifyRequest<{ Body: CreateBookRequest }>,
       reply: FastifyReply
     ) {
-      const { title, author, categories, tags } = request.body;
+      const { title, author } = request.body;
       const book = await bookService.createBook(title, author);
       reply.send(book);
     }
@@ -34,7 +34,7 @@ export class BookController {
     @validateFields([{ field: 'title', minLength: 3 }, { field: 'author', minLength: 3 }])
     public async updateBook(request: FastifyRequest<{ Params: { id: string }; Body: CreateBookRequest }>, reply: FastifyReply) {
       const { title, author, categories, tags } = request.body
-      const updateBook = await bookService.updateBook(Number(request.params.id), { title, author, categories, tags })
+      const updateBook = await bookService.updateBook(Number(request.params.id), { title, author })
       if(updateBook) {
         reply.send(updateBook)
       } else {

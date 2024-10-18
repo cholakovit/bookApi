@@ -651,3 +651,95 @@
 {"level":30,"time":1729184428000,"pid":2524,"hostname":"DESKTOP-IHEKL40","reqId":"req-8","res":{"statusCode":200},"responseTime":33.00220000743866,"msg":"request completed"}
 {"level":30,"time":1729184433202,"pid":2524,"hostname":"DESKTOP-IHEKL40","reqId":"req-9","req":{"method":"DELETE","url":"/books/3","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":61138},"msg":"incoming request"}
 {"level":30,"time":1729184433207,"pid":2524,"hostname":"DESKTOP-IHEKL40","reqId":"req-9","res":{"statusCode":200},"responseTime":5.443599998950958,"msg":"request completed"}
+{"level":30,"time":1729265031824,"pid":47020,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265031830,"pid":47020,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729265031830,"pid":47020,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265304574,"pid":31544,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265304580,"pid":31544,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729265304580,"pid":31544,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265308713,"pid":31544,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"GET","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":65307},"msg":"incoming request"}
+{"level":30,"time":1729265308721,"pid":31544,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":200},"responseTime":7.162999987602234,"msg":"request completed"}
+{"level":30,"time":1729265405392,"pid":31544,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","req":{"method":"POST","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":65324},"msg":"incoming request"}
+{"level":30,"time":1729265405434,"pid":31544,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","res":{"statusCode":200},"responseTime":41.40059995651245,"msg":"request completed"}
+{"level":30,"time":1729265431440,"pid":31544,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","req":{"method":"GET","url":"/books/8","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":65354},"msg":"incoming request"}
+{"level":30,"time":1729265431472,"pid":31544,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","res":{"statusCode":200},"responseTime":31.458899974822998,"msg":"request completed"}
+{"level":30,"time":1729265450874,"pid":31544,"hostname":"DESKTOP-IHEKL40","reqId":"req-4","req":{"method":"PUT","url":"/books/8","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":65358},"msg":"incoming request"}
+{"level":30,"time":1729265450909,"pid":31544,"hostname":"DESKTOP-IHEKL40","reqId":"req-4","res":{"statusCode":200},"responseTime":34.422799944877625,"msg":"request completed"}
+{"level":30,"time":1729265471329,"pid":31544,"hostname":"DESKTOP-IHEKL40","reqId":"req-5","req":{"method":"DELETE","url":"/books/8","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":65391},"msg":"incoming request"}
+{"level":30,"time":1729265471361,"pid":31544,"hostname":"DESKTOP-IHEKL40","reqId":"req-5","res":{"statusCode":200},"responseTime":31.80079996585846,"msg":"request completed"}
+{"level":30,"time":1729265695583,"pid":49504,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265695590,"pid":49504,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729265695590,"pid":49504,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265701590,"pid":11064,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265701595,"pid":11064,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729265701595,"pid":11064,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265946781,"pid":39480,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265946786,"pid":39480,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729265946787,"pid":39480,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265950035,"pid":47004,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265950041,"pid":47004,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729265950041,"pid":47004,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729265983314,"pid":47004,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"GET","url":"/categories","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":49175},"msg":"incoming request"}
+{"level":50,"time":1729265983316,"pid":47004,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","err":{"type":"TypeError","message":"Cannot read properties of undefined (reading 'find')","stack":"TypeError: Cannot read properties of undefined (reading 'find')\n    at CategoryRepository.find (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\repository\\Repository.ts:544:29)\n    at CategoryRepository.<anonymous> (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\category\\repository.ts:9:27)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\category\\repository.ts:14:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\category\\repository.ts:10:12)\n    at CategoryRepository.findAllCategories (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\category\\repository.ts:23:16)\n    at CategoryService.<anonymous> (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\category\\Service.ts:19:46)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\category\\Service.ts:17:71"},"msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":30,"time":1729265983322,"pid":47004,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":500},"responseTime":7.598300099372864,"msg":"request completed"}
+{"level":30,"time":1729266374451,"pid":38524,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729266374456,"pid":38524,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729266374456,"pid":38524,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729267831813,"pid":24064,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729267831819,"pid":24064,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729267831819,"pid":24064,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729267852348,"pid":45080,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729267852354,"pid":45080,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729267852354,"pid":45080,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729267863051,"pid":44124,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729267863056,"pid":44124,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729267863057,"pid":44124,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729267877440,"pid":43912,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729267877445,"pid":43912,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729267877446,"pid":43912,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729267883854,"pid":43912,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"GET","url":"/categories","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":60681},"msg":"incoming request"}
+{"level":50,"time":1729267883858,"pid":43912,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","err":{"type":"Error","message":"No categories found","stack":"Error: No categories found\n    at CategoryService.<anonymous> (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\category\\Service.ts:18:19)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\category\\Service.ts:11:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"},"msg":"No categories found"}
+{"level":30,"time":1729267883864,"pid":43912,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":500},"responseTime":9.357599973678589,"msg":"request completed"}
+{"level":30,"time":1729268557148,"pid":43912,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","req":{"method":"POST","url":"/categories","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":61029},"msg":"incoming request"}
+{"level":30,"time":1729268557189,"pid":43912,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","res":{"statusCode":201},"responseTime":39.97339999675751,"msg":"request completed"}
+{"level":30,"time":1729269238707,"pid":43252,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729269238713,"pid":43252,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729269238713,"pid":43252,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729269265843,"pid":34908,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729269265848,"pid":34908,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729269265849,"pid":34908,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729269269789,"pid":42564,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729269269795,"pid":42564,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729269269796,"pid":42564,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729269311369,"pid":42564,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"POST","url":"/categories","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":49302},"msg":"incoming request"}
+{"level":30,"time":1729269311518,"pid":42564,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":201},"responseTime":149.01520001888275,"msg":"request completed"}
+{"level":30,"time":1729269345221,"pid":42564,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","req":{"method":"POST","url":"/categories","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":49354},"msg":"incoming request"}
+{"level":30,"time":1729269345251,"pid":42564,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","res":{"statusCode":201},"responseTime":30.22479999065399,"msg":"request completed"}
+{"level":30,"time":1729269507871,"pid":4228,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729269507877,"pid":4228,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729269507877,"pid":4228,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729269721127,"pid":4228,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"GET","url":"/categories/2","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":49556},"msg":"incoming request"}
+{"level":30,"time":1729269721276,"pid":4228,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":200},"responseTime":147.4151999950409,"msg":"request completed"}
+{"level":30,"time":1729269730356,"pid":4228,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","req":{"method":"PUT","url":"/categories/2","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":49558},"msg":"incoming request"}
+{"level":30,"time":1729269730363,"pid":4228,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","res":{"statusCode":200},"responseTime":6.20740008354187,"msg":"request completed"}
+{"level":30,"time":1729269883166,"pid":4228,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","req":{"method":"GET","url":"/categories/2","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":56314},"msg":"incoming request"}
+{"level":30,"time":1729269883198,"pid":4228,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","res":{"statusCode":200},"responseTime":30.255900025367737,"msg":"request completed"}
+{"level":30,"time":1729270035171,"pid":4228,"hostname":"DESKTOP-IHEKL40","reqId":"req-4","req":{"method":"DELETE","url":"/categories/3","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":56360},"msg":"incoming request"}
+{"level":30,"time":1729270035203,"pid":4228,"hostname":"DESKTOP-IHEKL40","reqId":"req-4","res":{"statusCode":204},"responseTime":30.97350001335144,"msg":"request completed"}
+{"level":30,"time":1729270182302,"pid":27800,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729270182308,"pid":27800,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729270182308,"pid":27800,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729270206549,"pid":16300,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729270206554,"pid":16300,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729270206554,"pid":16300,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729270221101,"pid":44464,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729270221106,"pid":44464,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729270221107,"pid":44464,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729270307453,"pid":40172,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729270307460,"pid":40172,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729270307460,"pid":40172,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729270309804,"pid":13016,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729270309809,"pid":13016,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729270309809,"pid":13016,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729270338709,"pid":13016,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"DELETE","url":"/categories/2","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":56467},"msg":"incoming request"}
+{"level":30,"time":1729270338751,"pid":13016,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":200},"responseTime":41.44159996509552,"msg":"request completed"}
