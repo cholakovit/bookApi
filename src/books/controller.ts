@@ -7,13 +7,10 @@ const bookService = container.resolve(BookService)
 
 export class BookController {
 
-    @validateFields([{ field: 'title', minLength: 3 }, { field: 'author', minLength: 3 }])
-    public async createBook(
-      request: FastifyRequest<{ Body: CreateBookRequest }>,
-      reply: FastifyReply
-    ) {
-      const { title, author } = request.body;
-      const book = await bookService.createBook(title, author);
+    @validateFields([{ field: 'title', minLength: 3 }, { field: 'author', minLength: 3 }, { field: 'categoryIds', isArray: true }])
+    public async createBook(request: FastifyRequest<{ Body: CreateBookRequest }>, reply: FastifyReply) {
+      const { title, author, categoryIds } = request.body;
+      const book = await bookService.createBook(title, author, categoryIds);
       reply.send(book);
     }
   
@@ -33,7 +30,7 @@ export class BookController {
 
     @validateFields([{ field: 'title', minLength: 3 }, { field: 'author', minLength: 3 }])
     public async updateBook(request: FastifyRequest<{ Params: { id: string }; Body: CreateBookRequest }>, reply: FastifyReply) {
-      const { title, author, categories, tags } = request.body
+      const { title, author, categoryIds } = request.body
       const updateBook = await bookService.updateBook(Number(request.params.id), { title, author })
       if(updateBook) {
         reply.send(updateBook)

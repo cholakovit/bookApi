@@ -743,3 +743,171 @@
 {"level":30,"time":1729270309809,"pid":13016,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
 {"level":30,"time":1729270338709,"pid":13016,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"DELETE","url":"/categories/2","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":56467},"msg":"incoming request"}
 {"level":30,"time":1729270338751,"pid":13016,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":200},"responseTime":41.44159996509552,"msg":"request completed"}
+{"level":30,"time":1729505244541,"pid":13852,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729505244546,"pid":13852,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729505244547,"pid":13852,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729506031659,"pid":44456,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729506031665,"pid":44456,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729506031666,"pid":44456,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729506036105,"pid":38584,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729506036111,"pid":38584,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729506036112,"pid":38584,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729506038584,"pid":45232,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729506038591,"pid":45232,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729506038591,"pid":45232,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729506052916,"pid":7740,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729506052921,"pid":7740,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729506052922,"pid":7740,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729506298989,"pid":46376,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729506298995,"pid":46376,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729506298995,"pid":46376,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729507738345,"pid":39548,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729507738350,"pid":39548,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729507738350,"pid":39548,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729507745731,"pid":46044,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729507745737,"pid":46044,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729507745738,"pid":46044,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729507939856,"pid":45660,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729507939862,"pid":45660,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729507939863,"pid":45660,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729508275658,"pid":33040,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729508275663,"pid":33040,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729508275664,"pid":33040,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729508320201,"pid":47056,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729508320207,"pid":47056,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729508320207,"pid":47056,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729508325460,"pid":43492,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729508325466,"pid":43492,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729508325466,"pid":43492,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729508372035,"pid":45568,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729508372041,"pid":45568,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729508372041,"pid":45568,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729508478291,"pid":42628,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729508478297,"pid":42628,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729508478298,"pid":42628,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729509826627,"pid":37964,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729509826632,"pid":37964,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729509826633,"pid":37964,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510045311,"pid":32092,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510045317,"pid":32092,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510045318,"pid":32092,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510069514,"pid":42312,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510069520,"pid":42312,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510069521,"pid":42312,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510080616,"pid":42580,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510080622,"pid":42580,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510080622,"pid":42580,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510087151,"pid":43092,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510087157,"pid":43092,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510087158,"pid":43092,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510118756,"pid":42844,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510118761,"pid":42844,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510118762,"pid":42844,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510186444,"pid":43668,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510186449,"pid":43668,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510186450,"pid":43668,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510196972,"pid":2196,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510196978,"pid":2196,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510196979,"pid":2196,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510213488,"pid":9948,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510213494,"pid":9948,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510213494,"pid":9948,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510923066,"pid":46648,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510923071,"pid":46648,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510923072,"pid":46648,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510928888,"pid":27004,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510928894,"pid":27004,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510928894,"pid":27004,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510933300,"pid":45332,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510933306,"pid":45332,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510933306,"pid":45332,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510936850,"pid":36044,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510936857,"pid":36044,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510936857,"pid":36044,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510940909,"pid":436,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510940916,"pid":436,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510940916,"pid":436,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510947155,"pid":46812,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510947160,"pid":46812,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510947160,"pid":46812,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510961536,"pid":41396,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510961543,"pid":41396,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510961543,"pid":41396,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510968592,"pid":13456,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510968597,"pid":13456,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510968598,"pid":13456,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510972525,"pid":19120,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510972532,"pid":19120,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510972532,"pid":19120,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510981130,"pid":5024,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510981136,"pid":5024,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510981136,"pid":5024,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510986351,"pid":46488,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510986357,"pid":46488,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510986357,"pid":46488,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510988675,"pid":45476,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510988681,"pid":45476,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510988682,"pid":45476,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510996146,"pid":45744,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729510996151,"pid":45744,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729510996152,"pid":45744,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729511116964,"pid":36028,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729511116970,"pid":36028,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729511116971,"pid":36028,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729511125621,"pid":44676,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729511125627,"pid":44676,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729511125628,"pid":44676,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729514223475,"pid":24036,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729514223480,"pid":24036,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729514223481,"pid":24036,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729514658458,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"GET","url":"/categories","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":52839},"msg":"incoming request"}
+{"level":30,"time":1729514658499,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":200},"responseTime":39.809900015592575,"msg":"request completed"}
+{"level":30,"time":1729514677674,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","req":{"method":"GET","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":52846},"msg":"incoming request"}
+{"level":30,"time":1729514677704,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","res":{"statusCode":200},"responseTime":29.918500006198883,"msg":"request completed"}
+{"level":30,"time":1729514701435,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","req":{"method":"POST","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":52855},"msg":"incoming request"}
+{"level":50,"time":1729514701438,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","err":{"type":"TypeError","message":"parameterValue.value is not iterable","stack":"TypeError: parameterValue.value is not iterable\n    at SelectQueryBuilder.getWherePredicateCondition (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\QueryBuilder.ts:1516:52)\n    at SelectQueryBuilder.buildWhere (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:4317:34)\n    at SelectQueryBuilder.applyFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:3141:40)\n    at SelectQueryBuilder.setFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:105:14)\n    at EntityManager.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\entity-manager\\EntityManager.ts:1120:14)\n    at Repository.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\repository\\Repository.ts:553:29)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:27:47\n    at Generator.next (<anonymous>)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:8:71\n    at new Promise (<anonymous>)"},"msg":"parameterValue.value is not iterable"}
+{"level":30,"time":1729514701460,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","res":{"statusCode":500},"responseTime":24.025199979543686,"msg":"request completed"}
+{"level":30,"time":1729514743408,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-4","req":{"method":"POST","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":52867},"msg":"incoming request"}
+{"level":50,"time":1729514743409,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-4","err":{"type":"TypeError","message":"parameterValue.value is not iterable","stack":"TypeError: parameterValue.value is not iterable\n    at SelectQueryBuilder.getWherePredicateCondition (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\QueryBuilder.ts:1516:52)\n    at SelectQueryBuilder.buildWhere (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:4317:34)\n    at SelectQueryBuilder.applyFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:3141:40)\n    at SelectQueryBuilder.setFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:105:14)\n    at EntityManager.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\entity-manager\\EntityManager.ts:1120:14)\n    at Repository.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\repository\\Repository.ts:553:29)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:27:47\n    at Generator.next (<anonymous>)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:8:71\n    at new Promise (<anonymous>)"},"msg":"parameterValue.value is not iterable"}
+{"level":30,"time":1729514743410,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-4","res":{"statusCode":500},"responseTime":1.530900001525879,"msg":"request completed"}
+{"level":30,"time":1729514811227,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-5","req":{"method":"POST","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":52899},"msg":"incoming request"}
+{"level":30,"time":1729514811270,"pid":24036,"hostname":"DESKTOP-IHEKL40","reqId":"req-5","res":{"statusCode":200},"responseTime":42.82429999113083,"msg":"request completed"}
+{"level":30,"time":1729515652608,"pid":13208,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729515652615,"pid":13208,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729515652616,"pid":13208,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729515660510,"pid":36168,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729515660516,"pid":36168,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729515660517,"pid":36168,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729516310361,"pid":37456,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729516310367,"pid":37456,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729516310367,"pid":37456,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729516483391,"pid":9640,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729516483396,"pid":9640,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729516483397,"pid":9640,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729516632661,"pid":9640,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"POST","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":52543},"msg":"incoming request"}
+{"level":30,"time":1729516632706,"pid":9640,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":200},"responseTime":43.80700001120567,"msg":"request completed"}
+{"level":30,"time":1729516710042,"pid":15968,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729516710049,"pid":15968,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729516710049,"pid":15968,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729516719747,"pid":15968,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"GET","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":52737},"msg":"incoming request"}
+{"level":30,"time":1729516719755,"pid":15968,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":200},"responseTime":7.706800013780594,"msg":"request completed"}
+{"level":30,"time":1729516736360,"pid":15968,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","req":{"method":"POST","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":52758},"msg":"incoming request"}
+{"level":50,"time":1729516736362,"pid":15968,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","err":{"type":"TypeError","message":"parameterValue.value is not iterable","stack":"TypeError: parameterValue.value is not iterable\n    at SelectQueryBuilder.getWherePredicateCondition (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\QueryBuilder.ts:1516:52)\n    at SelectQueryBuilder.buildWhere (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:4317:34)\n    at SelectQueryBuilder.applyFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:3141:40)\n    at SelectQueryBuilder.setFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:105:14)\n    at EntityManager.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\entity-manager\\EntityManager.ts:1120:14)\n    at Repository.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\repository\\Repository.ts:553:29)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:27:47\n    at Generator.next (<anonymous>)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:8:71\n    at new Promise (<anonymous>)"},"msg":"parameterValue.value is not iterable"}
+{"level":30,"time":1729516736377,"pid":15968,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","res":{"statusCode":500},"responseTime":16.728200018405914,"msg":"request completed"}
+{"level":30,"time":1729516756621,"pid":15968,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","req":{"method":"POST","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":52788},"msg":"incoming request"}
+{"level":30,"time":1729516756767,"pid":15968,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","res":{"statusCode":200},"responseTime":145.06819999217987,"msg":"request completed"}
+{"level":30,"time":1729516791270,"pid":15968,"hostname":"DESKTOP-IHEKL40","reqId":"req-4","req":{"method":"POST","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":52837},"msg":"incoming request"}
+{"level":50,"time":1729516791271,"pid":15968,"hostname":"DESKTOP-IHEKL40","reqId":"req-4","err":{"type":"TypeError","message":"parameterValue.value is not iterable","stack":"TypeError: parameterValue.value is not iterable\n    at SelectQueryBuilder.getWherePredicateCondition (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\QueryBuilder.ts:1516:52)\n    at SelectQueryBuilder.buildWhere (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:4317:34)\n    at SelectQueryBuilder.applyFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:3141:40)\n    at SelectQueryBuilder.setFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:105:14)\n    at EntityManager.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\entity-manager\\EntityManager.ts:1120:14)\n    at Repository.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\repository\\Repository.ts:553:29)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:27:47\n    at Generator.next (<anonymous>)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:8:71\n    at new Promise (<anonymous>)"},"msg":"parameterValue.value is not iterable"}
+{"level":30,"time":1729516791272,"pid":15968,"hostname":"DESKTOP-IHEKL40","reqId":"req-4","res":{"statusCode":500},"responseTime":1.3074999749660492,"msg":"request completed"}
+{"level":30,"time":1729516995069,"pid":45152,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729516995075,"pid":45152,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1729516995075,"pid":45152,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1729516998275,"pid":45152,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"POST","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":53184},"msg":"incoming request"}
+{"level":50,"time":1729516998279,"pid":45152,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","err":{"type":"TypeError","message":"parameterValue.value is not iterable","stack":"TypeError: parameterValue.value is not iterable\n    at SelectQueryBuilder.getWherePredicateCondition (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\QueryBuilder.ts:1516:52)\n    at SelectQueryBuilder.buildWhere (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:4317:34)\n    at SelectQueryBuilder.applyFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:3141:40)\n    at SelectQueryBuilder.setFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:105:14)\n    at EntityManager.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\entity-manager\\EntityManager.ts:1120:14)\n    at Repository.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\repository\\Repository.ts:553:29)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:27:47\n    at Generator.next (<anonymous>)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:8:71\n    at new Promise (<anonymous>)"},"msg":"parameterValue.value is not iterable"}
+{"level":30,"time":1729516998290,"pid":45152,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":500},"responseTime":14.261400014162064,"msg":"request completed"}
+{"level":30,"time":1729516999834,"pid":45152,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","req":{"method":"POST","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":53187},"msg":"incoming request"}
+{"level":50,"time":1729516999835,"pid":45152,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","err":{"type":"TypeError","message":"parameterValue.value is not iterable","stack":"TypeError: parameterValue.value is not iterable\n    at SelectQueryBuilder.getWherePredicateCondition (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\QueryBuilder.ts:1516:52)\n    at SelectQueryBuilder.buildWhere (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:4317:34)\n    at SelectQueryBuilder.applyFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:3141:40)\n    at SelectQueryBuilder.setFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:105:14)\n    at EntityManager.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\entity-manager\\EntityManager.ts:1120:14)\n    at Repository.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\repository\\Repository.ts:553:29)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:27:47\n    at Generator.next (<anonymous>)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:8:71\n    at new Promise (<anonymous>)"},"msg":"parameterValue.value is not iterable"}
+{"level":30,"time":1729516999836,"pid":45152,"hostname":"DESKTOP-IHEKL40","reqId":"req-2","res":{"statusCode":500},"responseTime":1.4122999906539917,"msg":"request completed"}
+{"level":30,"time":1729517000822,"pid":45152,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","req":{"method":"POST","url":"/books","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":53190},"msg":"incoming request"}
+{"level":50,"time":1729517000822,"pid":45152,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","err":{"type":"TypeError","message":"parameterValue.value is not iterable","stack":"TypeError: parameterValue.value is not iterable\n    at SelectQueryBuilder.getWherePredicateCondition (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\QueryBuilder.ts:1516:52)\n    at SelectQueryBuilder.buildWhere (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:4317:34)\n    at SelectQueryBuilder.applyFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:3141:40)\n    at SelectQueryBuilder.setFindOptions (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\query-builder\\SelectQueryBuilder.ts:105:14)\n    at EntityManager.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\entity-manager\\EntityManager.ts:1120:14)\n    at Repository.findBy (C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\node_modules\\src\\repository\\Repository.ts:553:29)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:27:47\n    at Generator.next (<anonymous>)\n    at C:\\Users\\spasv\\OneDrive\\Работен плот\\WEB\\NODEJS\\bookAPI\\src\\books\\repository.ts:8:71\n    at new Promise (<anonymous>)"},"msg":"parameterValue.value is not iterable"}
+{"level":30,"time":1729517000823,"pid":45152,"hostname":"DESKTOP-IHEKL40","reqId":"req-3","res":{"statusCode":500},"responseTime":1.1200999915599823,"msg":"request completed"}

@@ -4,12 +4,8 @@ import { createBookRepository, deleteBookRepository, getBookByIdRepository, getB
 
 @injectable()
 export class BookService {
-    async createBook(title: string, author: string) {
-        if(!title || !author) {
-            throw new Error('Title and author are required')
-        }
-
-        return await createBookRepository(title, author);
+    async createBook(title: string, author: string, categoryIds: number[]) {
+        return await createBookRepository(title, author, categoryIds);
     }
 
     async getBooks() {

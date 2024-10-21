@@ -12,7 +12,6 @@ export class Book {
   @Column()
   author!: string;
 
-  @ManyToMany(() => Category, (category) => category.books, { cascade: true })
-  @JoinTable()
-  categories!: Category[];
+  @Column('int', { array: true })
+  categoryIds!: number[];
 }

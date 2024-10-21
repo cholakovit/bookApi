@@ -1,15 +1,38 @@
-import { Repository } from "typeorm";
+import { In, Repository } from "typeorm";
 import { Book } from "./Book";
 import { AppDataSource } from "../ormconfig";
+import { Category } from "../category/Category";
 
 const getBookRepository = (): Repository<Book> => {
   return AppDataSource.getRepository(Book)
 }
 
-export const createBookRepository = async(title: string, author: string) => {
+// export const createBookRepository = async(title: string, author: string, categoryIds: number[]) => {
+//   const bookRepository = getBookRepository()
+//   const categoryRepository = AppDataSource.getRepository(Category)
+
+//   const categories = await categoryRepository.findByIds(categoryIds)
+//   if(!categories.length) {
+//     throw new Error('No categories found')
+//   }
+
+//   const book = bookRepository.create({ title, author, categories })
+//   return await bookRepository.save(book)
+// }
+
+export const createBookRepository = async (title: string, author: string, categoryIds: number[]) => {
   const bookRepository = getBookRepository()
-  const book = bookRepository.create({ title, author })
-  return await bookRepository.save(book)
+  const categoryRepository = AppDataSource.getRepository(Category)
+
+  const categories = await categoryRepository.findBy({ id: In(categoryIds) })
+
+  if(categories.length !== categories.length) {
+    throw new Error(`Some categories were not found ${categoryIds}`)
+  }
+
+  const book = bookRepository.create({ title, author, categoryIds })
+
+  return bookRepository.save(book)
 }
 
 export const getBooksRepository = async() => {
