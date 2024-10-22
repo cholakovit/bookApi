@@ -1,4 +1,9 @@
 
+
+type CreateTagRequest = {
+  name: string
+}
+
 type CreateBookRequest = {
   title: string;
   author: string;
