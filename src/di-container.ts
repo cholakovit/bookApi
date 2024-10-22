@@ -1,9 +1,9 @@
 import { container } from "tsyringe";
 import { createBookRepository } from "./books/repository";
 import { createCategoryRepository } from "./category/repository";
-import { createTagRepository } from "./tags/repository";
-
+import { TagRepository } from "./tags/Repository";
 
 container.register('BookRepository', { useValue: createBookRepository })
 container.register('CategoryRepository', { useValue: createCategoryRepository })
-container.register('TagRepository', { useValue: createTagRepository })
+
+container.register(TagRepository, { useClass: TagRepository })

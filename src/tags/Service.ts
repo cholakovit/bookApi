@@ -1,15 +1,18 @@
-import { injectable } from "tsyringe";
-import { createTagRepository, deleteTagRepository, getTagByIdRepositry, getTagsRepositry, updateTagRepository } from "./repository";
+import { inject, injectable } from "tsyringe";
+import { TagRepository } from "./Repository";
+
 
 
 @injectable()
 export class TagService {
+    constructor(@inject(TagRepository) private tagRepository: TagRepository) {}
+
     async createTag(name: string) {
-        return await createTagRepository(name)
+        return await this.tagRepository.createTag(name)
     }
 
     async getTags() {
-        const tags = await getTagsRepositry()
+        const tags = await this.tagRepository.getTags()
         if(!tags.length) {
             throw new Error('No tags found')
         }
@@ -17,7 +20,7 @@ export class TagService {
     }
 
     async getTagsById(id: number) {
-        const tag = await getTagByIdRepositry(id)
+        const tag = await this.tagRepository.getTagById(id)
         if(!tag) {
             throw new Error('Tag not found')
         }
@@ -25,19 +28,19 @@ export class TagService {
     }
 
     async updateTag(id: number, name: string) {
-        const tag = await getTagByIdRepositry(id)
+        const tag = await this.tagRepository.getTagById(id)
         if(!tag) {
             throw new Error('Tag not found')
         }
-        return await updateTagRepository(id, { name })
+        return await this.tagRepository.updateTag(id, { name })
     }
 
     async deleteTag(id: number) {
-        const tag = await getTagByIdRepositry(id)
+        const tag = await this.tagRepository.getTagById(id)
         if(!tag) {
-            throw await deleteTagRepository(id)
+            throw new Error('Tag not found');
         }
-        return await deleteTagRepository(id)
+        return await this.tagRepository.deleteTag(id)
     }
 }
 
