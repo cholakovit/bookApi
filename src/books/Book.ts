@@ -1,5 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable } from 'typeorm';
-import { Category } from '../category/Category';
+import { Tag } from '../tags/Tag';
 
 @Entity()
 export class Book {
@@ -14,4 +14,8 @@ export class Book {
 
   @Column('int', { array: true })
   categoryIds!: number[];
+
+  @ManyToMany(() => Tag, (tag) => tag.books)
+  @JoinTable()
+  tags!: Tag[]
 }
