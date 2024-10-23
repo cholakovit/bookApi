@@ -1,6 +1,7 @@
 import { DataSource } from "typeorm";
 import { Book } from "./books/Book";
 import { Category } from "./category/Category";
+import { Tag } from "./tags/Tag";
 
 
 
@@ -10,7 +11,7 @@ export const AppDataSource = new DataSource({
     url: process.env.DB_URL,
     synchronize: true,
     logging: false,
-    entities: [Book, Category],
+    entities: [Book, Category, Tag],
     migrations: [],
     subscribers: [],
 });

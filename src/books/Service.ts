@@ -29,7 +29,7 @@ export class BookService {
         if(!book) {
             throw new Error('Book not found')
         }
-        return await updateBookRepository(id, data)
+        return await updateBookRepository(id, data as any)
     }
 
     async deleteBook(id: number) {
