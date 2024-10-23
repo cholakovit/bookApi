@@ -1,19 +1,17 @@
 import { injectable } from "tsyringe";
-import { createCategoryRepository, deleteCategoryRepository, getCategoriesRepository, getCategoryByIdRepository, updateCategoryRepository } from "./repository";
-import { Category } from "./Category";
+import { CategoryRepository } from "./Repository";
 
 
 @injectable()
 export class CategoryService {
-    async createCategory(name: string): Promise<Category> {
-        if(!name) {
-            throw new Error('Name is required')
-        }
-        return await createCategoryRepository(name)
+    constructor(private categoryRepository: CategoryRepository) {}
+
+    async createCategory(name: string) {
+        return await this.categoryRepository.createCategory(name)
     }
 
     async getCategories() {
-        const categories = await getCategoriesRepository()
+        const categories = await this.categoryRepository.getCategories()
         if(!categories.length) {
             throw new Error('No categories found')
         }
@@ -21,7 +19,7 @@ export class CategoryService {
     }
 
     async getCategoryById(id: number) {
-        const category = await getCategoryByIdRepository(id)
+        const category =await this.categoryRepository.getCategoryById(id)
         if(!category) {
             throw new Error('Category not found')
         }
@@ -29,20 +27,18 @@ export class CategoryService {
     }
 
     async updateCategory(id: number, name: string) {
-        const category = await getCategoryByIdRepository(id)
+        const category = await this.categoryRepository.getCategoryById(id)
         if(!category) {
             throw new Error('Category not found')
         }
-        return await updateCategoryRepository(id, { name })
+        return await this.categoryRepository.updateCategory(id, { name })
     }
 
     async deleteCategory(id: number) {
-        const category = await getCategoryByIdRepository(id)
+        const category = await this.categoryRepository.getCategoryById(id)
         if(!category) {
-            throw new Error('Category not found')
+            throw new Error('Category not found');
         }
-        return await deleteCategoryRepository(id)
+        return await this.categoryRepository.deleteCategory(id)
     }
 }
-
-
