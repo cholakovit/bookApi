@@ -1,4 +1,10 @@
 
+type CreateUserRequest = {
+  name: string
+  email: string
+  password: string
+  role: string
+}
 
 type CreateTagRequest = {
   name: string
@@ -21,3 +27,4 @@ type FieldConfig = {
 type CategoryRequest = {
   name: string
 }
+

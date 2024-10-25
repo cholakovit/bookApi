@@ -2,10 +2,12 @@ import { FastifyInstance } from "fastify"
 import { BookController } from "./books/Controller";
 import { CategoryController } from "./category/Controller";
 import { TagController } from "./tags/Controller";
+import { UserController } from "./users/Controller";
 
 const categoryController = new CategoryController();
 const bookController = new BookController();
 const tagController = new TagController();
+const userController = new UserController();
 
 export const Routes = (app: FastifyInstance) => {
     app.post('/books', bookController.createBook.bind(bookController));
@@ -25,4 +27,10 @@ export const Routes = (app: FastifyInstance) => {
     app.get('/tags/:id', tagController.getTagById.bind(tagController));
     app.put('/tags/:id', tagController.updateTag.bind(tagController));
     app.delete('/tags/:id', tagController.deleteTag.bind(tagController));
+
+    app.post('/users', userController.createUser.bind(userController));
+    app.get('/users', userController.getUsers.bind(userController));
+    app.get('/users/:id', userController.getUserById.bind(userController));
+    app.put('/users/:id', userController.updateUser.bind(userController));
+    app.delete('/users/:id', userController.deleteUser.bind(userController));
 };
