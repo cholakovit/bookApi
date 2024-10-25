@@ -8,7 +8,12 @@ export class UserService {
     constructor(private userRepository: UserRepository) {}
 
     async createUser(name: string, email: string, password: string, role: string) {
-        return await this.userRepository.createUser(name, email, password, Number(role))
+        const roleAsNumber = role ? Number(role) : 0;
+        if (isNaN(roleAsNumber)) {
+            throw new Error("Invalid role value: role must be a valid number or not provided.");
+        }
+        
+        return await this.userRepository.createUser(name, email, password, roleAsNumber)
     }
 
     async getUsers() {

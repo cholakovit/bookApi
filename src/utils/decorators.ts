@@ -37,9 +37,9 @@ export function validateFields(fields: FieldConfig[]) {
                         return;
                     }
                 }
-
-                return await originalMethod.apply(this, [request, reply])
             }
+
+            return await originalMethod.apply(this, [request, reply])
         }
     }
 }

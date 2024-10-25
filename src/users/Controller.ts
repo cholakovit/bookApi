@@ -1,10 +1,13 @@
 import { FastifyReply, FastifyRequest } from "fastify";
 import { container } from "tsyringe";
 import { UserService } from "./Service";
+import { validateFields } from "../utils/decorators";
 
 const userService = container.resolve(UserService)
 
 export class UserController {
+
+    @validateFields([{ field: 'name', minLength: 3 }, { field: 'email', minLength: 3 }, { field: 'password', minLength: 3 }])
     public async createUser(request: FastifyRequest<{ Body: CreateUserRequest }>, reply: FastifyReply) {
         const { name, email, password, role } = request.body
         const user = await userService.createUser(name, email, password, role)
@@ -25,6 +28,7 @@ export class UserController {
         }
     }
 
+    @validateFields([{ field: 'name', minLength: 3 }, { field: 'email', minLength: 3 }, { field: 'password', minLength: 3 }])
     public async updateUser(request: FastifyRequest<{ Params: { id: string }; Body: CreateUserRequest }>, reply: FastifyReply) {
         const { name, email, password, role } = request.body
         const roleAsNumber = Number(role);
