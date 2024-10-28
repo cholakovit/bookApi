@@ -6,11 +6,10 @@ import { validateFields } from "../utils/decorators";
 const bookService = container.resolve(BookService)
 
 export class BookController {
-
     @validateFields([{ field: 'title', minLength: 3 }, { field: 'author', minLength: 3 }, { field: 'categoryIds', isArray: true }])
     public async createBook(request: FastifyRequest<{ Body: CreateBookRequest }>, reply: FastifyReply) {
-      const { title, author, categoryIds } = request.body;
-      const book = await bookService.createBook(title, author, categoryIds);
+      const { title, author, categoryIds, tagIds } = request.body;
+      const book = await bookService.createBook(title, author, categoryIds, tagIds);
       reply.send(book);
     }
   

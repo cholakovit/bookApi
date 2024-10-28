@@ -2,6 +2,7 @@ import { injectable } from "tsyringe";
 import { Repository } from "typeorm";
 import { Book } from "./Book";
 import { AppDataSource } from "../ormconfig";
+import { Tag } from "../tags/Tag";
 
 
 @injectable()
@@ -12,8 +13,8 @@ export class BookRepository {
         this.bookRepository = AppDataSource.getRepository(Book)
     }
 
-    async createBook(title: string, author: string, categoryIds: number[]): Promise<Book> {
-        const book = this.bookRepository.create({ title, author, categoryIds})
+    async createBook(title: string, author: string, categoryIds: number[], tags: Tag[]): Promise<Book> {
+        const book = this.bookRepository.create({ title, author, categoryIds, tags })
         return await this.bookRepository.save(book)
     }
 

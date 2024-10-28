@@ -1,4 +1,4 @@
-import { Repository } from "typeorm";
+import { In, Repository } from "typeorm";
 import { AppDataSource } from "../ormconfig";
 import { Tag } from "./Tag";
 import { injectable } from "tsyringe";
@@ -22,6 +22,10 @@ export class TagRepository {
 
     async getTagById(id: number): Promise<Tag | null> {
         return await this.tagRepository.findOneBy({ id })
+    }
+
+    async getTagsByIds(ids: number[]) {
+        return await this.tagRepository.findBy({ id: In(ids) })
     }
 
     async updateTag(id: number, updateData: Partial<Tag>): Promise<Tag | null> {

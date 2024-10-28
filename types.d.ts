@@ -14,7 +14,7 @@ type CreateBookRequest = {
   title: string;
   author: string;
   categoryIds: number[];
-  tags: string[];
+  tagIds: number[];
 };
   
 type FieldConfig = {

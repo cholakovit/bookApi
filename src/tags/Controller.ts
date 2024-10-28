@@ -40,7 +40,6 @@ export class TagController {
         }
     }
 
-    @validateFields([{ field: 'name', minLength: 3 }])
     public async deleteTag(request: FastifyRequest<{ Params: { id: string } }>, reply: FastifyReply) {
         const deleted = await tagService.deleteTag(Number(request.params.id))
         if(deleted) {
