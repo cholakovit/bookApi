@@ -2151,3 +2151,8 @@
 {"level":30,"time":1730121139885,"pid":8764,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
 {"level":30,"time":1730121139891,"pid":8764,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
 {"level":30,"time":1730121139892,"pid":8764,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1730185591898,"pid":48164,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1730185591904,"pid":48164,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://127.0.0.1:4000"}
+{"level":30,"time":1730185591904,"pid":48164,"hostname":"DESKTOP-IHEKL40","msg":"Server listening at http://[::1]:4000"}
+{"level":30,"time":1730185684467,"pid":48164,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","req":{"method":"GET","url":"/users","host":"localhost:4000","remoteAddress":"127.0.0.1","remotePort":60765},"msg":"incoming request"}
+{"level":30,"time":1730185684470,"pid":48164,"hostname":"DESKTOP-IHEKL40","reqId":"req-1","res":{"statusCode":401},"responseTime":1.973499983549118,"msg":"request completed"}

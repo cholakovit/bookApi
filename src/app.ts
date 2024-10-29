@@ -8,10 +8,10 @@ import './di-container'
 import { Routes } from "./router";
 import { createErrorHandler, getLogStreams } from "./utils/settings";
 import { multistream } from "pino-multi-stream";
+import keyclockPlugin from './utils/keyclock'
 
 const isProduction = process.env.NODE_ENV === 'production';
-
-const logStreams = getLogStreams(isProduction); // Get log streams
+const logStreams = getLogStreams(isProduction); 
 
 const app = Fastify({
     logger: {
@@ -19,6 +19,8 @@ const app = Fastify({
         stream: multistream(logStreams), // Use pino-multi-stream for multiple outputs
       },
 })
+
+app.register(keyclockPlugin, { prefix: '/users' })
 
 Routes(app);
 
